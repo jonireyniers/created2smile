@@ -882,9 +882,6 @@ footer .inner-content {
 	margin-bottom: 25px;
 }
 
-
-
-
 /* Clients */
 
 .happy-clients {
@@ -902,9 +899,6 @@ footer .inner-content {
 .happy-clients .client-item img:hover {
 	opacity: 0.8;
 }
-
-
-
 
 /* Find Us */
 
@@ -1208,3 +1202,263 @@ footer .inner-content {
 .product-item {position: relative;}
 /* Oude prijsstijl uitschakelen indien nog actief */
 .product-item .down-content h6 {display:none;}
+
+/* === UI ENHANCEMENTS (append 2025-10-30) =============================== */
+:root {
+  --c-bg-alt:#fff7f9;
+  --c-border:#f3e2e6;
+  --c-border-strong:#e8cfd5;
+  --c-accent-soft:#ffe9ef;
+  --c-gradient-soft:linear-gradient(135deg,#ffe9ef 0%,#ffd4df 55%,#ffc2d4 100%);
+  --transition-fast:.25s cubic-bezier(.25,.8,.25,1);
+}
+
+/* Global refinement */
+body {
+  line-height:1.55;
+  font-size:15px;
+  background:
+    radial-gradient(circle at 85% 10%,rgba(255,107,129,.08),transparent 60%),
+    radial-gradient(circle at 10% 90%,rgba(255,107,129,.06),transparent 65%),
+    var(--c-bg);
+}
+
+/* Typografie small tweaks */
+h1,h2,h3 {letter-spacing:.5px;}
+p {font-size:.95rem;}
+
+/* Accenten onder headings */
+.section-heading {
+  margin-bottom:50px;
+}
+.section-heading::after {
+  height:5px;
+  width:82px;
+  border-radius:6px;
+  background:linear-gradient(90deg,#ff6b81 0%,#ff8aa0 50%,#ffc2d4 100%);
+  box-shadow:0 2px 6px -2px rgba(255,107,129,.5);
+}
+
+/* Nav / header tweak */
+header {
+  background:linear-gradient(90deg,#ff8ea2,#ff6b81);
+  box-shadow:0 4px 18px -8px rgba(255,107,129,.55);
+}
+.background-header {
+  background:rgba(255,255,255,.9)!important;
+  backdrop-filter:saturate(160%) blur(14px);
+  box-shadow:0 4px 22px -10px rgba(0,0,0,.15);
+}
+
+/* Banner text glass effect */
+.banner .text-content {
+  max-width:760px;
+  margin:0 auto;
+  padding:26px 34px 30px;
+  background:linear-gradient(135deg,rgba(255,255,255,.08),rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:18px;
+  backdrop-filter:blur(12px) saturate(140%);
+  box-shadow:0 10px 40px -16px rgba(0,0,0,.35);
+}
+.banner .text-content h2 {
+  font-size:58px;
+  line-height:1.05;
+  text-shadow:0 4px 22px rgba(0,0,0,.55);
+}
+@media (max-width: 768px){
+  .banner .text-content {padding:20px 22px;}
+  .banner .text-content h2 {font-size:40px;}
+}
+
+/* Product cards – elevated style */
+.product-item {
+  border:1px solid var(--c-border);
+  background:linear-gradient(180deg,#ffffff 0%,#fffafa 100%);
+  box-shadow:0 2px 6px rgba(0,0,0,.05),0 6px 22px -10px rgba(255,107,129,.25);
+  isolation:isolate;
+}
+.product-item:hover {
+  box-shadow:0 6px 26px -6px rgba(255,107,129,.35),0 2px 10px -2px rgba(0,0,0,.12);
+}
+.product-item::after {
+  background:radial-gradient(circle at 30% 20%,rgba(255,107,129,.18),transparent 75%);
+}
+.product-item img {
+  border-radius:14px;
+  box-shadow:0 4px 18px -10px rgba(0,0,0,.25);
+}
+.product-item:hover img {transform:scale(1.045) rotate(.2deg);}
+
+/* Price badge highlight */
+.price-badge {
+  font-size:.82rem;
+  letter-spacing:.5px;
+  padding:7px 14px;
+  background:linear-gradient(135deg,#ff6b81,#ff8ea2 60%,#ffb3c6);
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+.price-badge::before {
+  content:"€";
+  font-weight:600;
+  opacity:.85;
+  filter:brightness(1.15);
+  font-size:.7rem;
+  transform:translateY(1px);
+}
+.price-badge::after {
+  content:"";
+  width:6px;height:6px;
+  background:rgba(255,255,255,.75);
+  border-radius:50%;
+  box-shadow:0 0 0 4px rgba(255,255,255,.2);
+  animation:pulse 2.8s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,70%,100% {transform:scale(1);opacity:.9;}
+  35% {transform:scale(1.6);opacity:0;}
+}
+
+/* Buttons */
+a.filled-button, .contact-form button.filled-button {
+  border-radius:40px;
+  padding:12px 30px;
+  font-size:.9rem;
+  text-transform:uppercase;
+  letter-spacing:.9px;
+  box-shadow:0 6px 20px -6px rgba(255,107,129,.55);
+}
+a.filled-button:hover,
+.contact-form button.filled-button:hover {
+  transform:translateY(-4px);
+}
+a.filled-button:active {transform:translateY(-1px) scale(.97);}
+
+/* Focus accessibility */
+:focus-visible {
+  outline:2px solid #ff6b81;
+  outline-offset:3px;
+  border-radius:6px;
+}
+.navbar a:focus-visible {outline:2px dashed #fff;outline-offset:4px;}
+
+/* CTA refinement */
+.call-to-action .inner-content {
+  border:1px solid var(--c-border);
+  background:linear-gradient(125deg,#ffffff 0%,#fff5f7 50%,#ffe1e8 100%);
+  border-radius:20px;
+  position:relative;
+  overflow:hidden;
+}
+.call-to-action .inner-content:before {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(circle at 85% 20%,rgba(255,107,129,.18),transparent 60%),
+    linear-gradient(140deg,rgba(255,255,255,.35),rgba(255,255,255,0));
+  pointer-events:none;
+}
+
+/* Footer */
+footer .inner-content {
+  border-top:1px solid var(--c-border-strong);
+  background:linear-gradient(180deg,#fff 0%,#fff6f8 100%);
+  font-size:.85rem;
+}
+
+/* Featured mini cards (Waarom) */
+.best-features .product-item {
+  background:linear-gradient(180deg,#ffffff 0%,#fff1f5 100%);
+  border:1px solid var(--c-border);
+  padding:24px 22px!important;
+}
+.best-features .product-item h4 {
+  font-size:1rem;
+  margin-bottom:6px;
+  color:var(--c-accent-alt);
+}
+
+/* Smooth entrance stagger */
+.product-item {
+  opacity:0;
+  animation:cardIn .75s cubic-bezier(.2,.85,.25,1) forwards;
+}
+.product-item:nth-of-type(1){animation-delay:.05s;}
+.product-item:nth-of-type(2){animation-delay:.1s;}
+.product-item:nth-of-type(3){animation-delay:.15s;}
+.product-item:nth-of-type(4){animation-delay:.2s;}
+.product-item:nth-of-type(5){animation-delay:.25s;}
+.product-item:nth-of-type(6){animation-delay:.3s;}
+
+/* Dark mode (respect system) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg:#141316;
+    --c-surface:#1c1b1f;
+    --c-text:#f5f4f6;
+    --c-muted:#b4b0b5;
+    --c-border:#2a2730;
+  }
+  body {background:#141316;}
+  header {background:linear-gradient(90deg,#ff6b81,#ff8ea2);}
+  .background-header {background:rgba(28,27,31,.85)!important;}
+  .banner .text-content {background:linear-gradient(135deg,rgba(30,29,33,.65),rgba(30,29,33,.35));border:1px solid #3a3740;}
+  .product-item {background:linear-gradient(180deg,#201f24 0%,#1c1b1f 100%);border:1px solid #2a2730;}
+  .product-item .down-content h4 {color:#ffd1db;}
+  .call-to-action .inner-content {background:linear-gradient(135deg,#1e1d22,#29262d);border-color:#2a2730;}
+  footer .inner-content {background:#1c1b1f;color:#b4b0b5;}
+  a.filled-button, .contact-form button.filled-button {box-shadow:0 6px 20px -6px rgba(255,107,129,.65);}
+}
+
+/* Subtle scroll reveal (no JS fallback safe) */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-fade {opacity:0;transform:translateY(24px);animation:reveal .8s .15s forwards cubic-bezier(.2,.8,.3,1);}
+  @keyframes reveal {
+    to {opacity:1;transform:translateY(0);}
+  }
+}
+
+/* Utility spacing tweak */
+.latest-products {margin-top:80px;}
+.best-features {padding-top:60px;padding-bottom:60px;}
+/* ===================================================================== */
+
+/* === Photo sizing tweak (append) =================================== */
+.best-features .right-image {
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding:10px 0;
+}
+.best-features .right-image .featured-craft {
+  max-width:360px;
+  width:100%;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  border-radius:20px;
+  box-shadow:
+    0 12px 32px -12px rgba(255,107,129,.35),
+    0 6px 22px -10px rgba(0,0,0,.25);
+  transition:.35s cubic-bezier(.25,.8,.25,1);
+  animation:craftPop .6s .05s both;
+}
+.best-features .right-image .featured-craft:hover {
+  transform:translateY(-6px) scale(1.02);
+  box-shadow:
+    0 18px 38px -14px rgba(255,107,129,.45),
+    0 10px 26px -12px rgba(0,0,0,.35);
+}
+@keyframes craftPop {
+  0% {opacity:0;transform:translateY(18px) scale(.96);}
+  100% {opacity:1;transform:translateY(0) scale(1);}
+}
+@media (max-width: 575.98px){
+  .best-features .right-image .featured-craft {
+    max-width:75%;
+    aspect-ratio:3/4;
+  }
+}
+/* =================================================================== */

@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="nl">
-
   <head>
-
+    <!-- Verbeterde meta & performance -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Created 2 Smile - Handgemaakte gehaakte knuffels, creatieve hout- & lasergravure cadeaus door Linda. Unieke stukken, kleine oplages, liefdevol gemaakt.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="Created 2 Smile - Handgemaakte gehaakte knuffels, creatieve hout- & lasergravure cadeaus. Uniek, persoonlijk & met liefde gemaakt door Linda.">
     <meta name="author" content="Linda - Created 2 Smile">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="assets/images/pasen.jpg">
+    <link rel="preload" as="image" href="assets/images/hout.jpg">
+    <link rel="preload" as="image" href="assets/images/aap.jpg">
+    <meta property="og:locale" content="nl_NL">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Created 2 Smile | Handgemaakte Knuffels & Laser Creaties">
+    <meta property="og:description" content="Unieke gehaakte knuffels, hout & laser gepersonaliseerde cadeaus. Kleine oplage, veel liefde.">
+    <meta property="og:image" content="https://example.com/assets/images/logo.jpg">
+    <meta property="og:url" content="https://example.com/">
+    <meta name="twitter:card" content="summary_large_image">
     <title>Created 2 Smile | Handgemaakte Knuffels & Laser Creaties</title>
-    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg" />
+    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +35,29 @@ https://templatemo.com/tm-546-sixteen-clothing
     <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
     <link rel="stylesheet" href="assets/css/owl.css">
 
-  </head>
+    <!-- Font optimalisatie -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"LocalBusiness",
+      "name":"Created 2 Smile",
+      "description":"Handgemaakte gehaakte knuffels en gepersonaliseerde hout & laser gravure cadeaus.",
+      "image":"https://example.com/assets/images/logo.jpg",
+      "url":"https://example.com/",
+      "address":{"@type":"PostalAddress","addressCountry":"NL"},
+      "makesOffer":[
+        {"@type":"Offer","itemOffered":{"@type":"Product","name":"Gehaakte Paashaas"},"price":"25.75","priceCurrency":"EUR"},
+        {"@type":"Offer","itemOffered":{"@type":"Product","name":"Gehaakt Konijn"},"price":"30.25","priceCurrency":"EUR"}
+      ]
+    }
+    </script>
+  </head>
   <body>
+    <!-- Toegankelijkheid skip link -->
+    <a href="#main" class="sr-only sr-only-focusable" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;">Direct naar hoofdinhoud</a>
 
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
@@ -76,156 +104,215 @@ https://templatemo.com/tm-546-sixteen-clothing
 
     <!-- Page Content -->
     <!-- Banner Starts Here -->
-    <div class="banner header-text">
+    <div class="banner header-text" role="banner" aria-label="Hoofdbanner met highlights">
       <div class="owl-banner owl-carousel">
-        <div class="banner-item-01">
+        <div class="banner-item-01" aria-label="Handgemaakte knuffels">
           <div class="text-content">
             <h4>Nieuw & Uniek</h4>
             <h2>Handgemaakte Knuffels</h2>
+            <p style="color:#fff;font-weight:300;max-width:520px;margin:14px auto 0;">Zacht, duurzaam en volledig met de hand gemaakt.</p>
           </div>
         </div>
-        <div class="banner-item-02">
+        <div class="banner-item-02" aria-label="Hout & laser gravures">
           <div class="text-content">
             <h4>Persoonlijke Gifts</h4>
             <h2>Hout & Laser Gravures</h2>
+            <p style="color:#fff;font-weight:300;max-width:520px;margin:14px auto 0;">Unieke gepersonaliseerde cadeaus voor elk moment.</p>
           </div>
         </div>
-        <div class="banner-item-03">
+        <div class="banner-item-03" aria-label="Bezoek lokale markten">
           <div class="text-content">
             <h4>Lokale Marktjes</h4>
-            <h2>Kom langs & Ontdek</h2>
+            <h2>Kom Langs & Ontdek</h2>
+            <p style="color:#fff;font-weight:300;max-width:520px;margin:14px auto 0;">Ervaar materialen & kwaliteit in het echt.</p>
           </div>
         </div>
       </div>
     </div>
     <!-- Banner Ends Here -->
 
-    <!-- Latest Products -->
-    <div class="latest-products">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Laatste Creaties</h2>
-              <a href="products.html">bekijk alle creaties <i class="fa fa-angle-right"></i></a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img loading="lazy" src="assets/images/pasen.jpg" alt="Gehaakte Paashaas"></a>
-              <div class="down-content">
-                <a href="#"><h4>Gehaakte Paashaas</h4></a>
-                <h6>&euro;25,75</h6>
-                <p>Zacht garen, met de hand gehaakt. Kleuren op aanvraag mogelijk.</p>
+    <!-- Hoofdinhoud start anchor -->
+    <main id="main">
+      <!-- Latest Products -->
+      <div class="latest-products" aria-labelledby="laatste-creaties-kop">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <h2 id="laatste-creaties-kop">Laatste Creaties</h2>
+                <a href="products.html" aria-label="Bekijk alle creaties">bekijk alle creaties <i class="fa fa-angle-right" aria-hidden="true"></i></a>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img loading="lazy" src="assets/images/konijn.jpg" alt="Gehaakt Konijn Knuffel"></a>
-              <div class="down-content">
-                <a href="#"><h4>Gehaakt Konijn</h4></a>
-                <h6>&euro;30,25</h6>
-                <p>Lief kraamcadeau. Personaliseerbaar met naamlabel.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img loading="lazy" src="assets/images/hout.jpg" alt="Houten Gravure Bord"></a>
-              <div class="down-content">
-                <a href="#"><h4>Houten Gravure Bord</h4></a>
-                <h6>&euro;20,45</h6>
-                <p>Lasergravure op duurzaam hout. Personaliseerbare tekst of naam.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img loading="lazy" src="assets/images/juf.jpg" alt="Juf Bedankje"></a>
-              <div class="down-content">
-                <a href="#"><h4>Juf Bedankje</h4></a>
-                <h6>&euro;15,25</h6>
-                <p>Klein handgemaakt bedankje voor de juf. Optie: naam/jaar.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img loading="lazy" src="assets/images/liefde.jpg" alt="Gehaakt Hart"></a>
-              <div class="down-content">
-                <a href="#"><h4>Gehaakt Hart</h4></a>
-                <h6>&euro;12,50</h6>
-                <p>Zacht hartje als symbool van liefde. Kleuren op aanvraag.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="product-item">
-              <a href="#"><img loading="lazy" src="assets/images/hout_pasen.jpg" alt="Houten Paas Onderzetters"></a>
-              <div class="down-content">
-                <a href="#"><h4>Houten Paas Onderzetters</h4></a>
-                <h6>&euro;22,50</h6>
-                <p>Set van 4 paas-onderzetters met gravure. Custom naam mogelijk.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="best-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Over Created 2 Smile</h2>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="left-content">
-              <h4>Met liefde handgemaakt door Linda</h4>
-              <p>Ik ben Linda en ik haak knuffels, maak unieke cadeaus in hout en laser graveer persoonlijke details. Af en toe sta ik op lokale marktjes en evenementen zodat je de creaties in het echt kunt zien. Elk stuk is met aandacht gemaakt en vaak in kleine oplage.</p>
-              <ul class="featured-list">
-                <li><a href="#">Gehaakte knuffels (custom kleuren)</a></li>
-                <li><a href="#">Hout & laser gravures</a></li>
-                <li><a href="#">Unieke cadeaus & kraamsets</a></li>
-                <li><a href="#">Persoonlijke ontwerpen op aanvraag</a></li>
-                <li><a href="#">Lokale markt aanwezigheid</a></li>
-              </ul>
-              <a href="about.html" class="filled-button">Meer lezen</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="right-image">
-              <img loading="lazy" src="assets/images/unicorn2.jpg" alt="Creatieve handgemaakte stukken door Linda">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="inner-content">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>Handgemaakte &amp; Unieke <em>Created 2 Smile</em> Creaties</h4>
-                  <p>Op zoek naar iets persoonlijks? Vraag gerust een custom ontwerp of naamgravure aan.</p>
+            <!-- Product cards met prijsbadges -->
+            <div class="col-md-4">
+              <div class="product-item" aria-label="Gehaakte Paashaas productkaart">
+                <a href="#"><img loading="lazy" src="assets/images/pasen.jpg" alt="Gehaakte Paashaas knuffel"></a>
+                <span class="price-badge">€25,75</span>
+                <div class="down-content">
+                  <a href="#"><h4>Gehaakte Paashaas</h4></a>
+                  <h6>&euro;25,75</h6>
+                  <p>Zacht garen, met de hand gehaakt. Kleuren op aanvraag mogelijk.</p>
                 </div>
-                <div class="col-md-4">
-                  <a href="contact.html" class="filled-button">Neem contact op</a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product-item" aria-label="Gehaakt Konijn productkaart">
+                <a href="#"><img loading="lazy" src="assets/images/konijn.jpg" alt="Gehaakt konijn knuffel"></a>
+                <span class="price-badge">€30,25</span>
+                <div class="down-content">
+                  <a href="#"><h4>Gehaakt Konijn</h4></a>
+                  <h6>&euro;30,25</h6>
+                  <p>Lief kraamcadeau. Personaliseerbaar met naamlabel.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product-item" aria-label="Houten Gravure Bord productkaart">
+                <a href="#"><img loading="lazy" src="assets/images/hout.jpg" alt="Rond houten bord met lasergravure"></a>
+                <span class="price-badge">€20,45</span>
+                <div class="down-content">
+                  <a href="#"><h4>Houten Gravure Bord</h4></a>
+                  <h6>&euro;20,45</h6>
+                  <p>Lasergravure op duurzaam hout. Personaliseerbare tekst of naam.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product-item" aria-label="Juf bedankje productkaart">
+                <a href="#"><img loading="lazy" src="assets/images/juf.jpg" alt="Klein houten bedankje voor juf"></a>
+                <span class="price-badge">€15,25</span>
+                <div class="down-content">
+                  <a href="#"><h4>Juf Bedankje</h4></a>
+                  <h6>&euro;15,25</h6>
+                  <p>Klein handgemaakt bedankje voor de juf. Optie: naam/jaar.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product-item" aria-label="Gehaakt Hart productkaart">
+                <a href="#"><img loading="lazy" src="assets/images/liefde.jpg" alt="Gehaakt rood hart"></a>
+                <span class="price-badge">€12,50</span>
+                <div class="down-content">
+                  <a href="#"><h4>Gehaakt Hart</h4></a>
+                  <h6>&euro;12,50</h6>
+                  <p>Zacht hartje als symbool van liefde. Kleuren op aanvraag.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="product-item" aria-label="Houten Paas Onderzetters productkaart">
+                <a href="#"><img loading="lazy" src="assets/images/hout_pasen.jpg" alt="Set houten paas onderzetters"></a>
+                <span class="price-badge">€22,50</span>
+                <div class="down-content">
+                  <a href="#"><h4>Houten Paas Onderzetters</h4></a>
+                  <h6>&euro;22,50</h6>
+                  <p>Set van 4 paas-onderzetters met gravure. Custom naam mogelijk.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>      
+      <!-- Over sectie -->
+      <div class="best-features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <h2>Over Created 2 Smile</h2>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="left-content">
+                <h4>Met liefde handgemaakt door Linda</h4>
+                <p>Ik ben Linda en ik haak knuffels, maak unieke cadeaus in hout en laser graveer persoonlijke details. Af en toe sta ik op lokale marktjes en evenementen zodat je de creaties in het echt kunt zien. Elk stuk is met aandacht gemaakt en vaak in kleine oplage.</p>
+                <ul class="featured-list">
+                  <li><a href="#">Gehaakte knuffels (custom kleuren)</a></li>
+                  <li><a href="#">Hout & laser gravures</a></li>
+                  <li><a href="#">Unieke cadeaus & kraamsets</a></li>
+                  <li><a href="#">Persoonlijke ontwerpen op aanvraag</a></li>
+                  <li><a href="#">Lokale markt aanwezigheid</a></li>
+                </ul>
+                <a href="about.html" class="filled-button">Meer lezen</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="right-image">
+  <img class="featured-craft" loading="lazy" src="assets/images/unicorn2.jpg" alt="Creatieve handgemaakte stukken door Linda">
+</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
+
+      <!-- Nieuwe mini highlight sectie -->
+      <section class="best-features" aria-labelledby="waarom">
+        <div class="container">
+          <div class="row" style="row-gap:32px;">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <h2 id="waarom">Waarom Created 2 Smile?</h2>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-item" style="padding:22px;min-height:180px;" aria-label="Kleine oplages">
+                <div class="down-content">
+                  <h4>Kleine Oplages</h4>
+                  <p>Geen massaproductie: elk stuk krijgt aandacht.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-item" style="padding:22px;min-height:180px;" aria-label="Personalisatie">
+                <div class="down-content">
+                  <h4>Personalisatie</h4>
+                  <p>Namen, data & kleuren volledig op maat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-item" style="padding:22px;min-height:180px;" aria-label="Duurzame materialen">
+                <div class="down-content">
+                  <h4>Duurzame Materialen</h4>
+                  <p>Bewust gekozen garens & hout waar mogelijk.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-item" style="padding:22px;min-height:180px;" aria-label="Snelle communicatie">
+                <div class="down-content">
+                  <h4>Snelle Communicatie</h4>
+                  <p>Korte lijnen & samen denken over jouw idee.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="call-to-action">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="inner-content">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h4>Handgemaakte &amp; Unieke <em>Created 2 Smile</em> Creaties</h4>
+                    <p>Op zoek naar iets persoonlijks? Vraag gerust een custom ontwerp of naamgravure aan.</p>
+                  </div>
+                  <div class="col-md-4">
+                    <a href="contact.html" class="filled-button">Neem contact op</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
     
     <footer>
       <div class="container">
@@ -264,8 +351,5 @@ https://templatemo.com/tm-546-sixteen-clothing
         }
       }
     </script>
-
-
   </body>
-
 </html>
