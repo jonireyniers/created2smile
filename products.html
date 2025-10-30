@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Created 2 Smile producten: gehaakte knuffels en gepersonaliseerde houten & lasergravure cadeaus.">
+    <meta name="author" content="Linda - Created 2 Smile">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Created 2 Smile | Onze Creaties</title>
+    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.jpg" alt="Created 2 Smile logo" class="logo-img">
+            <h2>Created <em>2 Smile</em></h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li> 
+              <li class="nav-item active">
+                <a class="nav-link" href="products.html">Onze Creaties <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Over Ons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Neem Contact Op</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading products-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h4>nieuw & handgemaakt</h4>
+              <h2>onze creaties</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="filters">
+              <ul>
+                <li class="active" data-filter="*">Alle</li>
+                <li data-filter=".cat-knuffel">Knuffels</li>
+                <li data-filter=".cat-houtlaser">Hout & Laser</li>
+                <li data-filter=".cat-kleding">Kleding & Textiel</li>
+                <li data-filter=".cat-geboorte">Geboorte</li>
+                <li data-filter=".cat-huwelijk">Huwelijk</li>
+                <li data-filter=".cat-seizoen">Seizoen & Feest</li>
+                <li data-filter=".cat-kaartjes">Kaartjes & Print</li>
+                <li data-filter=".cat-klasgeschenk">Klas Geschenkje</li>
+                <li data-filter=".cat-personaliseer">Personaliseer Idee</li>
+                <li data-filter=".cat-set">Combi / Sets</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="filters-content">
+              <div class="row grid" id="productsGrid">
+                <!-- Dynamisch gevuld -->
+              </div><!-- /.row.grid -->
+            </div><!-- /.filters-content -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>&copy; 2025 Created 2 Smile - Handgemaakt door Linda<br>Template basis: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script>
+      // Dynamische rendering producten
+      fetch('assets/data/products.json')
+        .then(r => r.json())
+        .then(products => {
+          const grid = document.getElementById('productsGrid');
+          const frag = document.createDocumentFragment();
+          products.forEach(p => {
+            const col = document.createElement('div');
+            const classes = ['col-lg-4','col-md-4','all'].concat(p.categories || []);
+            col.className = classes.join(' ');
+            col.innerHTML = `
+              <div class="product-item">
+                <span class="price-badge">${p.price}</span>
+                <a href="#"><img loading="lazy" src="${p.img}" alt="${p.alt || p.title}"></a>
+                <div class="down-content">
+                  <a href="#"><h4>${p.title}</h4></a>
+                  <p>${p.description}</p>
+                </div>
+              </div>`;
+            frag.appendChild(col);
+          });
+          grid.appendChild(frag);
+
+          if (typeof Isotope !== 'undefined') {
+            var iso = new Isotope(grid, { itemSelector: '.col-lg-4', layoutMode: 'fitRows' });
+            document.querySelectorAll('.filters ul li').forEach(li => {
+              li.addEventListener('click', () => {
+                document.querySelectorAll('.filters ul li').forEach(x => x.classList.remove('active'));
+                li.classList.add('active');
+                iso.arrange({ filter: li.getAttribute('data-filter') });
+              });
+            });
+          }
+        })
+        .catch(err => console.error('Product load error', err));
+    </script>
+    <script>
+      var cleared = cleared || [];
+      cleared[0] = cleared[1] = cleared[2] = 0;
+      function clearField(t){
+        if(!cleared[t.id]){
+          cleared[t.id] = 1;
+          t.value='';
+          t.style.color='#fff';
+        }
+      }
+    </script>
+
+
+  </body>
+
+</html>

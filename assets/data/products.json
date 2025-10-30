@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "camille",
+    "title": "Camille Pop",
+    "price": "&euro;28,50",
+    "img": "assets/images/camille.jpg",
+    "alt": "Camille pop",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Gehaakte pop met jurk. Kleuren en naamlabel mogelijk.",
+    "tags": [
+      "haakwerk",
+      "pop",
+      "personaliseer"
+    ]
+  },
+  {
+    "id": "aap",
+    "title": "Aap Knuffel",
+    "price": "Op aanvraag",
+    "img": "assets/images/aap.jpg",
+    "alt": "Aap knuffel",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Gehaakte aap met shirt in verschillende kleuren.",
+    "tags": [
+      "haakwerk",
+      "knuffel"
+    ]
+  },
+  {
+    "id": "baby_personaliseer",
+    "title": "Baby Personaliseer",
+    "price": "Op aanvraag",
+    "img": "assets/images/baby_personaliseer.jpg",
+    "alt": "Baby personaliseer",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Persoonlijk baby item met naamoptie.",
+    "tags": [
+      "baby",
+      "personaliseer"
+    ]
+  },
+  {
+    "id": "baby_personaliseer2",
+    "title": "Baby Personaliseer 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/baby_personaliseer2.jpg",
+    "alt": "Baby personaliseer 2",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Variant met aangepaste kleuren of tekst.",
+    "tags": [
+      "baby",
+      "personaliseer"
+    ]
+  },
+  {
+    "id": "baby_personaliseer3",
+    "title": "Baby Personaliseer 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/baby_personaliseer3.jpg",
+    "alt": "Baby personaliseer 3",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Extra voorbeeld personalisatie.",
+    "tags": [
+      "baby",
+      "personaliseer"
+    ]
+  },
+  {
+    "id": "baby",
+    "title": "Kraam Box Pakket",
+    "price": "&euro;49,00",
+    "img": "assets/images/baby.jpg",
+    "alt": "Kraam box pakket",
+    "categories": [
+      "cat-geboorte",
+      "cat-set",
+      "cat-personaliseer"
+    ],
+    "description": "Box met knuffel, speenkoord, naamkaart & kaartje.",
+    "tags": [
+      "kraamcadeau",
+      "set"
+    ]
+  },
+  {
+    "id": "babykaartje",
+    "title": "Baby Kaartje",
+    "price": "&euro;2,95",
+    "img": "assets/images/babykaartje.jpg",
+    "alt": "Baby kaartje",
+    "categories": [
+      "cat-kaartjes",
+      "cat-geboorte"
+    ],
+    "description": "Wenskaart geboorte, personaliseerbaar met naam.",
+    "tags": [
+      "kaart",
+      "geboorte"
+    ]
+  },
+  {
+    "id": "babyknuffel",
+    "title": "Baby Knuffel Set",
+    "price": "&euro;26,75",
+    "img": "assets/images/babyknuffel.jpg",
+    "alt": "Baby knuffel set",
+    "categories": [
+      "cat-knuffel",
+      "cat-geboorte",
+      "cat-set"
+    ],
+    "description": "Zachte knuffeltjes met rammelaar optie.",
+    "tags": [
+      "kraamcadeau",
+      "set"
+    ]
+  },
+  {
+    "id": "babyvos",
+    "title": "Baby Vos",
+    "price": "Op aanvraag",
+    "img": "assets/images/babyvos.jpg",
+    "alt": "Baby vos",
+    "categories": [
+      "cat-knuffel",
+      "cat-geboorte"
+    ],
+    "description": "Gehaakte vos voor baby cadeau.",
+    "tags": [
+      "haakwerk",
+      "vos"
+    ]
+  },
+  {
+    "id": "babyvos2",
+    "title": "Baby Vos 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/babyvos2.jpg",
+    "alt": "Baby vos 2",
+    "categories": [
+      "cat-knuffel",
+      "cat-geboorte"
+    ],
+    "description": "Tweede variant van gehaakte vos.",
+    "tags": [
+      "haakwerk",
+      "vos"
+    ]
+  },
+  {
+    "id": "bedankkaartje",
+    "title": "Bedank Kaartje",
+    "price": "Op aanvraag",
+    "img": "assets/images/bedankkaartje.jpg",
+    "alt": "Bedank kaartje",
+    "categories": [
+      "cat-kaartjes"
+    ],
+    "description": "Bedankkaartje met zachte illustratie.",
+    "tags": [
+      "kaart",
+      "bedankt"
+    ]
+  },
+  {
+    "id": "beer",
+    "title": "Knuffel Beer",
+    "price": "&euro;19,50",
+    "img": "assets/images/beer.jpg",
+    "alt": "Knuffel beer",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Klassieke beer met strik, optioneel naamlabel.",
+    "tags": [
+      "haakwerk",
+      "beer"
+    ]
+  },
+  {
+    "id": "beren",
+    "title": "Knuffel Beren Set",
+    "price": "Op aanvraag",
+    "img": "assets/images/beren.jpg",
+    "alt": "Knuffel beren set",
+    "categories": [
+      "cat-knuffel",
+      "cat-set"
+    ],
+    "description": "Set van meerdere beren in verschillende kleuren.",
+    "tags": [
+      "haakwerk",
+      "set"
+    ]
+  },
+  {
+    "id": "bosdieren",
+    "title": "Bosdieren Set",
+    "price": "Op aanvraag",
+    "img": "assets/images/bosdieren.jpg",
+    "alt": "Bosdieren set",
+    "categories": [
+      "cat-knuffel",
+      "cat-set"
+    ],
+    "description": "Gehaakte bosdieren samen als set.",
+    "tags": [
+      "haakwerk",
+      "set"
+    ]
+  },
+  {
+    "id": "cadeaujuf",
+    "title": "Cadeau Juf",
+    "price": "Op aanvraag",
+    "img": "assets/images/cadeaujuf.jpg",
+    "alt": "Cadeau juf",
+    "categories": [
+      "cat-klasgeschenk"
+    ],
+    "description": "Bedankje voor juf, personaliseerbaar.",
+    "tags": [
+      "school",
+      "bedankt"
+    ]
+  },
+  {
+    "id": "communie_hout",
+    "title": "Communie Gravure",
+    "price": "&euro;18,50",
+    "img": "assets/images/communie_hout.jpg",
+    "alt": "Communie gravure",
+    "categories": [
+      "cat-seizoen",
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Plaat met naam, datum en symbool.",
+    "tags": [
+      "communie",
+      "gravure"
+    ]
+  },
+  {
+    "id": "communie",
+    "title": "Communie Set",
+    "price": "&euro;32,50",
+    "img": "assets/images/communie.jpg",
+    "alt": "Communie set",
+    "categories": [
+      "cat-seizoen",
+      "cat-set",
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Combinatie van plaat + sleutelhanger.",
+    "tags": [
+      "communie",
+      "set"
+    ]
+  },
+  {
+    "id": "cute",
+    "title": "Cute Knuffel",
+    "price": "Op aanvraag",
+    "img": "assets/images/cute.jpg",
+    "alt": "Cute knuffel",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Schattige gehaakte knuffel.",
+    "tags": [
+      "haakwerk",
+      "knuffel"
+    ]
+  },
+  {
+    "id": "dino",
+    "title": "Knuffel Dino",
+    "price": "&euro;24,00",
+    "img": "assets/images/dino.jpg",
+    "alt": "Knuffel dino",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Stoere dino knuffel, kleurkeuze.",
+    "tags": [
+      "haakwerk",
+      "dino"
+    ]
+  },
+  {
+    "id": "feature-image",
+    "title": "Feature Afbeelding",
+    "price": "Op aanvraag",
+    "img": "assets/images/feature-image.jpg",
+    "alt": "Feature afbeelding",
+    "categories": [
+      "cat-personaliseer"
+    ],
+    "description": "Gebruik voor algemene presentatie.",
+    "tags": [
+      "presentatie"
+    ]
+  },
+  {
+    "id": "geboorte",
+    "title": "Geboorte Bord Hout",
+    "price": "&euro;19,95",
+    "img": "assets/images/geboorte.jpg",
+    "alt": "Geboorte bord hout",
+    "categories": [
+      "cat-houtlaser",
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Lasergegraveerd geboortebord.",
+    "tags": [
+      "gravure",
+      "hout"
+    ]
+  },
+  {
+    "id": "geboorte1",
+    "title": "Geboorte Bord Variant",
+    "price": "Op aanvraag",
+    "img": "assets/images/geboorte1.jpg",
+    "alt": "Geboorte bord variant",
+    "categories": [
+      "cat-houtlaser",
+      "cat-geboorte"
+    ],
+    "description": "Variant van geboortebord ontwerp.",
+    "tags": [
+      "gravure",
+      "hout"
+    ]
+  },
+  {
+    "id": "geschenkdino",
+    "title": "Geschenk Dino",
+    "price": "Op aanvraag",
+    "img": "assets/images/geschenkdino.jpg",
+    "alt": "Geschenk dino",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Dino als cadeau met naamoptie.",
+    "tags": [
+      "haakwerk",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "glasgraveren",
+    "title": "Glas Graveren",
+    "price": "Op aanvraag",
+    "img": "assets/images/glasgraveren.jpg",
+    "alt": "Glas graveren",
+    "categories": [
+      "cat-personaliseer"
+    ],
+    "description": "Voorbeeld van gegraveerd glas.",
+    "tags": [
+      "gravure",
+      "glas"
+    ]
+  },
+  {
+    "id": "hout_bedanking",
+    "title": "Hout Bedanking",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_bedanking.jpg",
+    "alt": "Hout bedanking",
+    "categories": [
+      "cat-houtlaser"
+    ],
+    "description": "Houten bedankplaatje.",
+    "tags": [
+      "bedankt",
+      "hout"
+    ]
+  },
+  {
+    "id": "hout_gelukkigeverjaardag",
+    "title": "Hout Verjaardag",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_gelukkigeverjaardag.jpg",
+    "alt": "Hout verjaardag",
+    "categories": [
+      "cat-houtlaser",
+      "cat-seizoen"
+    ],
+    "description": "Verjaardag gravure op hout.",
+    "tags": [
+      "verjaardag",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_graveren",
+    "title": "Hout Graveren",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_graveren.jpg",
+    "alt": "Hout graveren",
+    "categories": [
+      "cat-houtlaser"
+    ],
+    "description": "Algemeen voorbeeld houtgravure.",
+    "tags": [
+      "gravure",
+      "hout"
+    ]
+  },
+  {
+    "id": "hout_pasen",
+    "title": "Hout Pasen",
+    "price": "&euro;15,50",
+    "img": "assets/images/hout_pasen.jpg",
+    "alt": "Hout pasen",
+    "categories": [
+      "cat-seizoen",
+      "cat-houtlaser"
+    ],
+    "description": "Paasdecoratie met gravure.",
+    "tags": [
+      "pasen",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_plank",
+    "title": "Gravure Plank",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_plank.jpg",
+    "alt": "Gravure plank",
+    "categories": [
+      "cat-houtlaser"
+    ],
+    "description": "Houten plank met tekst.",
+    "tags": [
+      "gravure",
+      "hout"
+    ]
+  },
+  {
+    "id": "hout_trouw",
+    "title": "Hout Trouw",
+    "price": "&euro;24,95",
+    "img": "assets/images/hout_trouw.jpg",
+    "alt": "Hout trouw",
+    "categories": [
+      "cat-huwelijk",
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Doosje of plaat voor huwelijk.",
+    "tags": [
+      "huwelijk",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_trouw2",
+    "title": "Hout Trouw 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_trouw2.jpg",
+    "alt": "Hout trouw 2",
+    "categories": [
+      "cat-huwelijk",
+      "cat-houtlaser"
+    ],
+    "description": "Variant trouwgravure.",
+    "tags": [
+      "huwelijk",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_trouw3",
+    "title": "Hout Trouw 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_trouw3.jpg",
+    "alt": "Hout trouw 3",
+    "categories": [
+      "cat-huwelijk",
+      "cat-houtlaser"
+    ],
+    "description": "Variant trouwdecor.",
+    "tags": [
+      "huwelijk",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_trouw4",
+    "title": "Hout Trouw 4",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_trouw4.jpg",
+    "alt": "Hout trouw 4",
+    "categories": [
+      "cat-huwelijk",
+      "cat-houtlaser"
+    ],
+    "description": "Extra trouw gravure model.",
+    "tags": [
+      "huwelijk",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_verjaardag",
+    "title": "Hout Verjaardag",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_verjaardag.jpg",
+    "alt": "Hout verjaardag",
+    "categories": [
+      "cat-houtlaser",
+      "cat-seizoen"
+    ],
+    "description": "Verjaardag ontwerp op hout.",
+    "tags": [
+      "verjaardag",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_verjaardag2",
+    "title": "Hout Verjaardag 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_verjaardag2.jpg",
+    "alt": "Hout verjaardag 2",
+    "categories": [
+      "cat-houtlaser",
+      "cat-seizoen"
+    ],
+    "description": "Tweede verjaardag ontwerp.",
+    "tags": [
+      "verjaardag",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_verjaardag3",
+    "title": "Hout Verjaardag 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_verjaardag3.jpg",
+    "alt": "Hout verjaardag 3",
+    "categories": [
+      "cat-houtlaser",
+      "cat-seizoen"
+    ],
+    "description": "Derde verjaardag ontwerp.",
+    "tags": [
+      "verjaardag",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout_vis",
+    "title": "Hout Vis",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout_vis.jpg",
+    "alt": "Hout vis",
+    "categories": [
+      "cat-houtlaser",
+      "cat-seizoen"
+    ],
+    "description": "Vis symbool gravure (communie).",
+    "tags": [
+      "communie",
+      "gravure"
+    ]
+  },
+  {
+    "id": "hout",
+    "title": "Hout Gravure Basis",
+    "price": "Op aanvraag",
+    "img": "assets/images/hout.jpg",
+    "alt": "Hout basis",
+    "categories": [
+      "cat-houtlaser"
+    ],
+    "description": "Basis houten plaat ter gravure.",
+    "tags": [
+      "hout",
+      "gravure"
+    ]
+  },
+  {
+    "id": "huwelijk",
+    "title": "Bruidspaar Popjes",
+    "price": "&euro;32,00",
+    "img": "assets/images/huwelijk.jpg",
+    "alt": "Bruidspaar popjes",
+    "categories": [
+      "cat-huwelijk",
+      "cat-knuffel",
+      "cat-personaliseer"
+    ],
+    "description": "Set gehaakte popjes bruid & bruidegom.",
+    "tags": [
+      "huwelijk",
+      "haakwerk"
+    ]
+  },
+  {
+    "id": "huwelijk2",
+    "title": "Huwelijk Decor 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/huwelijk2.jpg",
+    "alt": "Huwelijk decor 2",
+    "categories": [
+      "cat-huwelijk",
+      "cat-houtlaser"
+    ],
+    "description": "Alternatieve huwelijk decor.",
+    "tags": [
+      "huwelijk",
+      "gravure"
+    ]
+  },
+  {
+    "id": "juf_bedanking",
+    "title": "Bedankje Juf Hout",
+    "price": "&euro;7,50",
+    "img": "assets/images/juf_bedanking.jpg",
+    "alt": "Bedankje juf hout",
+    "categories": [
+      "cat-klasgeschenk",
+      "cat-houtlaser"
+    ],
+    "description": "Houten kaartje Bedankt Juf.",
+    "tags": [
+      "school",
+      "bedankt"
+    ]
+  },
+  {
+    "id": "juf",
+    "title": "Juf Cadeau",
+    "price": "Op aanvraag",
+    "img": "assets/images/juf.jpg",
+    "alt": "Juf cadeau",
+    "categories": [
+      "cat-klasgeschenk"
+    ],
+    "description": "Cadeau idee voor juf.",
+    "tags": [
+      "school",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "kaartjebaby",
+    "title": "Kaartje Baby",
+    "price": "Op aanvraag",
+    "img": "assets/images/kaartjebaby.jpg",
+    "alt": "Kaartje baby",
+    "categories": [
+      "cat-kaartjes",
+      "cat-geboorte"
+    ],
+    "description": "Geboorte kaart ontwerp variant.",
+    "tags": [
+      "kaart",
+      "geboorte"
+    ]
+  },
+  {
+    "id": "kerstmis",
+    "title": "Kerst Ornament Gravure",
+    "price": "&euro;5,95",
+    "img": "assets/images/kerstmis.jpg",
+    "alt": "Kerst ornament",
+    "categories": [
+      "cat-seizoen",
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Rond ornament met naam en jaar.",
+    "tags": [
+      "kerst",
+      "gravure"
+    ]
+  },
+  {
+    "id": "kikker_2",
+    "title": "Kikker Knuffel 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/kikker_2.jpg",
+    "alt": "Kikker knuffel 2",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Tweede kikker knuffel variant.",
+    "tags": [
+      "haakwerk",
+      "kikker"
+    ]
+  },
+  {
+    "id": "kikker",
+    "title": "Kikker Knuffel",
+    "price": "Op aanvraag",
+    "img": "assets/images/kikker.jpg",
+    "alt": "Kikker knuffel",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Groene kikker knuffel.",
+    "tags": [
+      "haakwerk",
+      "kikker"
+    ]
+  },
+  {
+    "id": "kikker3",
+    "title": "Kikker Knuffel 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/kikker3.jpg",
+    "alt": "Kikker knuffel 3",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Derde kikker ontwerp.",
+    "tags": [
+      "haakwerk",
+      "kikker"
+    ]
+  },
+  {
+    "id": "klasgeschenkje5",
+    "title": "Klas Geschenkje 5",
+    "price": "Op aanvraag",
+    "img": "assets/images/klasgeschenkje5.jpg",
+    "alt": "Klas geschenkje 5",
+    "categories": [
+      "cat-klasgeschenk"
+    ],
+    "description": "Voorbeeld klas geschenk.",
+    "tags": [
+      "school",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "klasgeschenkjes",
+    "title": "Klas Geschenkjes Set",
+    "price": "Op aanvraag",
+    "img": "assets/images/klasgeschenkjes.jpg",
+    "alt": "Klas geschenkjes set",
+    "categories": [
+      "cat-klasgeschenk",
+      "cat-set"
+    ],
+    "description": "Meerdere geschenkjes samen.",
+    "tags": [
+      "school",
+      "set"
+    ]
+  },
+  {
+    "id": "klasgeschenkjes2",
+    "title": "Klas Geschenkjes 2",
+    "price": "&euro;13,95",
+    "img": "assets/images/klasgeschenkjes2.jpg",
+    "alt": "Klas geschenkjes 2",
+    "categories": [
+      "cat-klasgeschenk",
+      "cat-set",
+      "cat-personaliseer"
+    ],
+    "description": "Set houten labels.",
+    "tags": [
+      "school",
+      "set"
+    ]
+  },
+  {
+    "id": "klasgeschenkjes3",
+    "title": "Klas Geschenkjes 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/klasgeschenkjes3.jpg",
+    "alt": "Klas geschenkjes 3",
+    "categories": [
+      "cat-klasgeschenk",
+      "cat-set"
+    ],
+    "description": "Verschillende kleine geschenkjes.",
+    "tags": [
+      "school",
+      "set"
+    ]
+  },
+  {
+    "id": "klasgeschenkjes4",
+    "title": "Mini Potlood Klas",
+    "price": "&euro;1,25",
+    "img": "assets/images/klasgeschenkjes4.jpg",
+    "alt": "Mini potlood klas",
+    "categories": [
+      "cat-klasgeschenk",
+      "cat-personaliseer"
+    ],
+    "description": "Potloodje met gegraveerde naam.",
+    "tags": [
+      "school",
+      "gravure"
+    ]
+  },
+  {
+    "id": "konijn",
+    "title": "Knuffel Konijn",
+    "price": "&euro;21,00",
+    "img": "assets/images/konijn.jpg",
+    "alt": "Knuffel konijn",
+    "categories": [
+      "cat-knuffel",
+      "cat-geboorte"
+    ],
+    "description": "Zacht gehaakt konijn, kleurkeuze.",
+    "tags": [
+      "haakwerk",
+      "konijn"
+    ]
+  },
+  {
+    "id": "licht",
+    "title": "Licht Decor Gravure",
+    "price": "Op aanvraag",
+    "img": "assets/images/licht.jpg",
+    "alt": "Licht decor gravure",
+    "categories": [
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Verlicht gravure decor.",
+    "tags": [
+      "licht",
+      "gravure"
+    ]
+  },
+  {
+    "id": "liefde",
+    "title": "Liefde Cadeau",
+    "price": "&euro;9,95",
+    "img": "assets/images/liefde.jpg",
+    "alt": "Liefde cadeau",
+    "categories": [
+      "cat-seizoen",
+      "cat-personaliseer"
+    ],
+    "description": "Valentijn of liefde thema.",
+    "tags": [
+      "valentijn",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "logo",
+    "title": "Logo Voorbeeld",
+    "price": "Op aanvraag",
+    "img": "assets/images/logo.jpg",
+    "alt": "Logo voorbeeld",
+    "categories": [
+      "cat-personaliseer"
+    ],
+    "description": "Voorbeeld bedrijfslogo toepassing.",
+    "tags": [
+      "logo",
+      "branding"
+    ]
+  },
+  {
+    "id": "meter",
+    "title": "Meter Cadeau",
+    "price": "Op aanvraag",
+    "img": "assets/images/meter.jpg",
+    "alt": "Meter cadeau",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Cadeau voor peter/meter.",
+    "tags": [
+      "meter",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "meter2",
+    "title": "Meter Cadeau 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/meter2.jpg",
+    "alt": "Meter cadeau 2",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Variant meter geschenk.",
+    "tags": [
+      "meter",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "meter3",
+    "title": "Meter Cadeau 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/meter3.jpg",
+    "alt": "Meter cadeau 3",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Derde variant meter geschenk.",
+    "tags": [
+      "meter",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "naambord",
+    "title": "Naambord",
+    "price": "Op aanvraag",
+    "img": "assets/images/naambord.jpg",
+    "alt": "Naambord",
+    "categories": [
+      "cat-personaliseer",
+      "cat-houtlaser"
+    ],
+    "description": "Houten naambord gravure.",
+    "tags": [
+      "naam",
+      "hout"
+    ]
+  },
+  {
+    "id": "naambord1",
+    "title": "Naambord 1",
+    "price": "Op aanvraag",
+    "img": "assets/images/naambord1.jpg",
+    "alt": "Naambord 1",
+    "categories": [
+      "cat-personaliseer",
+      "cat-houtlaser"
+    ],
+    "description": "Variant van naambord.",
+    "tags": [
+      "naam",
+      "hout"
+    ]
+  },
+  {
+    "id": "naambord2",
+    "title": "Naambord 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/naambord2.jpg",
+    "alt": "Naambord 2",
+    "categories": [
+      "cat-personaliseer",
+      "cat-houtlaser"
+    ],
+    "description": "Tweede variant naambord.",
+    "tags": [
+      "naam",
+      "hout"
+    ]
+  },
+  {
+    "id": "naambordkaartje",
+    "title": "Naambord Kaartje",
+    "price": "&euro;34,95",
+    "img": "assets/images/naambordkaartje.jpg",
+    "alt": "Naambord kaartje",
+    "categories": [
+      "cat-geboorte",
+      "cat-houtlaser",
+      "cat-set"
+    ],
+    "description": "Set mijlpaal schijven + naamkaart.",
+    "tags": [
+      "baby",
+      "mijlpaal"
+    ]
+  },
+  {
+    "id": "naampersonalisatie",
+    "title": "Naampersonalisatie",
+    "price": "&euro;14,50",
+    "img": "assets/images/naampersonalisatie.jpg",
+    "alt": "Naampersonalisatie",
+    "categories": [
+      "cat-geboorte",
+      "cat-personaliseer"
+    ],
+    "description": "Speenkoord met naamoptie.",
+    "tags": [
+      "baby",
+      "naam"
+    ]
+  },
+  {
+    "id": "paasei",
+    "title": "Paasei Decor",
+    "price": "Op aanvraag",
+    "img": "assets/images/paasei.jpg",
+    "alt": "Paasei decor",
+    "categories": [
+      "cat-seizoen",
+      "cat-houtlaser"
+    ],
+    "description": "Houten paas ei decor.",
+    "tags": [
+      "pasen",
+      "decor"
+    ]
+  },
+  {
+    "id": "pasen",
+    "title": "Pasen Haas Set",
+    "price": "&euro;22,50",
+    "img": "assets/images/pasen.jpg",
+    "alt": "Pasen haas set",
+    "categories": [
+      "cat-seizoen",
+      "cat-set",
+      "cat-houtlaser"
+    ],
+    "description": "Set van 3 staande haasjes.",
+    "tags": [
+      "pasen",
+      "set"
+    ]
+  },
+  {
+    "id": "personaliseer",
+    "title": "Eigen Idee / Aanvraag",
+    "price": "Op aanvraag",
+    "img": "assets/images/personaliseer.jpg",
+    "alt": "Eigen idee",
+    "categories": [
+      "cat-personaliseer"
+    ],
+    "description": "Stuur je idee: samen uitwerken.",
+    "tags": [
+      "custom",
+      "persoonlijk"
+    ]
+  },
+  {
+    "id": "plank",
+    "title": "Foto Blok Hout",
+    "price": "&euro;12,95",
+    "img": "assets/images/plank.jpg",
+    "alt": "Foto blok hout",
+    "categories": [
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Blokje met gegraveerde tekst en gleuf.",
+    "tags": [
+      "hout",
+      "foto"
+    ]
+  },
+  {
+    "id": "sleutelhangers",
+    "title": "Sleutelhanger Gravure",
+    "price": "&euro;7,95",
+    "img": "assets/images/sleutelhangers.jpg",
+    "alt": "Sleutelhanger gravure",
+    "categories": [
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Houten hanger met korte tekst.",
+    "tags": [
+      "gravure",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "sleutelhangers1",
+    "title": "Leren Sleutelhanger Initiaal",
+    "price": "&euro;8,95",
+    "img": "assets/images/sleutelhangers1.jpg",
+    "alt": "Leren sleutelhanger",
+    "categories": [
+      "cat-personaliseer"
+    ],
+    "description": "Leren hanger met initiaal.",
+    "tags": [
+      "leer",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "tas",
+    "title": "Tas Personaliseer",
+    "price": "Op aanvraag",
+    "img": "assets/images/tas.jpg",
+    "alt": "Tas personaliseer",
+    "categories": [
+      "cat-kleding",
+      "cat-personaliseer"
+    ],
+    "description": "Tas met eigen ontwerp of naam.",
+    "tags": [
+      "textiel",
+      "logo"
+    ]
+  },
+  {
+    "id": "trui4",
+    "title": "Trui 4",
+    "price": "Op aanvraag",
+    "img": "assets/images/trui4.jpg",
+    "alt": "Trui 4",
+    "categories": [
+      "cat-kleding",
+      "cat-personaliseer"
+    ],
+    "description": "Voorbeeld gepersonaliseerde trui.",
+    "tags": [
+      "textiel",
+      "druk"
+    ]
+  },
+  {
+    "id": "trui5",
+    "title": "Hoodie Met Logo",
+    "price": "Op aanvraag",
+    "img": "assets/images/trui5.jpg",
+    "alt": "Hoodie met logo",
+    "categories": [
+      "cat-kleding",
+      "cat-personaliseer"
+    ],
+    "description": "Hoodie met eigen ontwerp.",
+    "tags": [
+      "textiel",
+      "logo"
+    ]
+  },
+  {
+    "id": "truien",
+    "title": "Kinder T-Shirt Naam",
+    "price": "&euro;16,95",
+    "img": "assets/images/truien.jpg",
+    "alt": "Kinder t-shirt naam",
+    "categories": [
+      "cat-kleding",
+      "cat-personaliseer"
+    ],
+    "description": "Shirt met flexdruk.",
+    "tags": [
+      "textiel",
+      "druk"
+    ]
+  },
+  {
+    "id": "truien2",
+    "title": "Truien 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/truien2.jpg",
+    "alt": "Truien 2",
+    "categories": [
+      "cat-kleding",
+      "cat-personaliseer"
+    ],
+    "description": "Alternatieve kleuren trui.",
+    "tags": [
+      "textiel",
+      "druk"
+    ]
+  },
+  {
+    "id": "truien3",
+    "title": "Truien 3",
+    "price": "Op aanvraag",
+    "img": "assets/images/truien3.jpg",
+    "alt": "Truien 3",
+    "categories": [
+      "cat-kleding",
+      "cat-personaliseer"
+    ],
+    "description": "Trui variant met aangepaste print.",
+    "tags": [
+      "textiel",
+      "druk"
+    ]
+  },
+  {
+    "id": "uil",
+    "title": "Uil Knuffel",
+    "price": "Op aanvraag",
+    "img": "assets/images/uil.jpg",
+    "alt": "Uil knuffel",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Gehaakte uil in zachte kleuren.",
+    "tags": [
+      "haakwerk",
+      "uil"
+    ]
+  },
+  {
+    "id": "unicorn",
+    "title": "Unicorn Knuffel",
+    "price": "Op aanvraag",
+    "img": "assets/images/unicorn.jpg",
+    "alt": "Unicorn knuffel",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Eenhoorn met regenboog details.",
+    "tags": [
+      "haakwerk",
+      "unicorn"
+    ]
+  },
+  {
+    "id": "unicorn2",
+    "title": "Unicorn Knuffel 2",
+    "price": "Op aanvraag",
+    "img": "assets/images/unicorn2.jpg",
+    "alt": "Unicorn knuffel 2",
+    "categories": [
+      "cat-knuffel"
+    ],
+    "description": "Tweede unicorn variant.",
+    "tags": [
+      "haakwerk",
+      "unicorn"
+    ]
+  },
+  {
+    "id": "vaderdag",
+    "title": "Vaderdag Cadeau",
+    "price": "Op aanvraag",
+    "img": "assets/images/vaderdag.jpg",
+    "alt": "Vaderdag cadeau",
+    "categories": [
+      "cat-seizoen",
+      "cat-personaliseer"
+    ],
+    "description": "Personalisatie voor Vaderdag.",
+    "tags": [
+      "vaderdag",
+      "cadeau"
+    ]
+  },
+  {
+    "id": "verjaardag",
+    "title": "Verjaardag Gravure",
+    "price": "Op aanvraag",
+    "img": "assets/images/verjaardag.jpg",
+    "alt": "Verjaardag gravure",
+    "categories": [
+      "cat-seizoen",
+      "cat-houtlaser"
+    ],
+    "description": "Houten verjaardag decor.",
+    "tags": [
+      "verjaardag",
+      "gravure"
+    ]
+  },
+  {
+    "id": "verjaardagskaartje",
+    "title": "Verjaardags Kaartje",
+    "price": "Op aanvraag",
+    "img": "assets/images/verjaardagskaartje.jpg",
+    "alt": "Verjaardags kaartje",
+    "categories": [
+      "cat-kaartjes",
+      "cat-seizoen"
+    ],
+    "description": "Kaartje voor verjaardag.",
+    "tags": [
+      "verjaardag",
+      "kaart"
+    ]
+  },
+  {
+    "id": "zaak_hout",
+    "title": "Zaak Hout",
+    "price": "Op aanvraag",
+    "img": "assets/images/zaak_hout.jpg",
+    "alt": "Zaak hout",
+    "categories": [
+      "cat-houtlaser",
+      "cat-personaliseer"
+    ],
+    "description": "Gravure voor zaak of logo.",
+    "tags": [
+      "logo",
+      "gravure"
+    ]
+  }
+]
